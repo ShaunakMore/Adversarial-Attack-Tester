@@ -1,0 +1,72 @@
+# 🐍 Python
+__pycache__/
+test*.py
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# 📦 Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# 🧠 Model + embedding files
+*.bin
+*.pt
+*.h5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.onnx
+
+# 📸 Image data
+images/
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+
+# 📂 Index and cache files
+index/
+data/
+cache/
+*.db
+*.sqlite
+*.index
+*.idx
+
+# 🧰 System and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ⚙️ Ollama related
+ollama/
+ollama_models/
+ollama_cache/
+
+# 📜 Logs and temporary files
+*.tmp
+*.bak
+*.log
+*.out
+
+# 🧪 Jupyter / experiments
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
